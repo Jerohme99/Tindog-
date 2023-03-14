@@ -1,0 +1,136 @@
+#title{
+    background-color: #ff4c68; 
+}
+
+h1{
+    font-family: montserrat;
+}
+h2{     
+    font-size: 4rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'montserrat-bold';
+    font-size: 1.5rem;
+}
+body{
+    font-family: 'ubuntu';
+}
+
+.navbar{
+    padding: 0 30px;
+}
+.nav-link{
+    padding: 0 50px;
+}
+.testimonial-section{
+    padding: 5% 30% 10%;
+}
+.title2{
+    margin-top: 60px;
+    padding-left: 0;
+    color: #fff;
+    
+}
+.arow{
+    padding: 10px 0 140px 138px;
+}
+.title-img{
+    transform: rotate(25deg);
+    margin-top: 10px;
+    position: absolute;
+    padding-left: 20%;
+}
+@media (max-width:1028px)  {
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        padding: 40px 40px 0;
+        width: 70%;
+        
+    }
+    .arow{
+        padding: 10px 40px 150px 40px;
+    }
+    .finalheading{
+        font-size: 10px;
+        padding-bottom: 30px;
+    }
+}
+@media (min-width:320px) {
+    body{
+        font-size: 1.2rem;
+    }
+    .title-img{
+        margin: auto;
+    }
+}
+#features{
+    text-align: center;
+    padding: 8% 10%;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+.feat{
+    color: #8f8f8f;
+}
+.fa{
+    color: #ef8172;
+    font-size: 50px;
+}
+.fa:hover{
+    color:#ff4c68;
+}
+ #testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+.testimonial-image{
+    border-radius: 100%;
+    padding: 20px 20px;
+    width: 35%;
+}
+
+#press{
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.press-logo{
+    padding: 8% 1% 5%;
+    width: 15%;
+}
+#pricing{
+    text-align: center;
+    margin-top: 4%;
+}
+.price-tab{
+    font-family: 'montserrat-bold';
+}
+.pricing-column{
+    padding: 3% 3%;
+}
+#cta{
+        background-color: #ff4c68;
+        text-align: center;
+        font-family: "montserrat-black";
+        color: #fff;
+        padding: 10%;
+}
+#footer{
+        text-align: center;
+}
+.finalheading{
+    font-size: 3rem;
+}
+.download{
+    margin-top: 40px;
+    padding-left: auto;
+}
+.faz{
+        font-size: 20px;
+        padding: 4% 2% 4%;
+        color: #000;
+}
